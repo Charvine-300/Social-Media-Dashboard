@@ -1,0 +1,164 @@
+:root {
+    --o-par-font-family: 'Trebuchet MS';
+    --o-clorox-color:  hsl(228, 12%, 44%);
+}
+
+body {
+    margin: 0px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+
+
+/*==========  ID Rules  ==========*/
+#flex-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#flexbox-two {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#head-wrapper {
+    width: 100%;
+    margin: 0px;
+    height: 250px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background-color:  hsl(225, 100%, 98%);
+}
+
+#toggle-master {
+    width: 70px;
+    height: 35px;
+    float: right;
+    margin-right: 0px;
+    border-radius: 50px;
+    background-color: hsl(230, 22%, 74%);
+}
+
+#circle-switch {
+    margin: 5px;
+    width: 25px;
+    height: 25px;
+    float: right;
+    border-radius: 25px;
+    background-color: hsl(0, 0%, 97%);
+}
+
+#present-overview {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: left;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: hsl(228, 12%, 44%);
+}
+
+/*==========  Class Rules  ==========*/
+.usernames {
+    float: right;
+    display: inline;
+    margin-top: 2px;
+    text-align: center;
+    margin-inline-start: 5px;
+}
+
+.icon-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    height: fit-content;
+}
+
+.info-package {
+    width: fit-content;
+    height: 100%;
+    margin: 30px auto 30px auto;
+}
+
+.top-liner {
+    width: 100%;
+    height: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.followers {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin-top: 200px;
+}
+
+.names {
+    margin-top: 0px;
+    font-size: 20px;
+    text-align: center;
+
+    font-weight: lighter;
+}
+
+.follower-count {
+    padding-top: 40px;
+    font-size: 70px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.line-split {
+    height: 1px;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color:  hsl(0, 0%, 0%);
+}
+
+.social-info {
+    width: 87%;
+    height: 80%;
+    margin: 0px auto 20px auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: hsl(227, 47%, 96%);
+}
+
+.kept-scores {
+    width: 87%;
+    height: 80%;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin: 0px auto 20px auto;
+    background-color: hsl(227, 47%, 96%);
+}
+
+
+/*==========  Element Rules  ==========*/
+header {
+    height: 100%;
+    margin: 20px;
+    margin-top: 0px;
+    padding-top: 30px;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: var(--o-par-font-family);
+}
+
+p {
+    margin-top: 5px;
+    font-weight: 700;
+    color: var(--o-clorox-color);
+    font-family: var(--o-par-font-family);
+}
+
+
+/*========== Animation and Pseudo Rules  ==========*/
