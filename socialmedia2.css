@@ -1,0 +1,17 @@
+#social-info {
+    width: 21%;
+    height: 50%;
+}
+
+#kept-scores {
+    width: 21%;
+    height: 50%;
+}
+
+#flexbox-two {
+    flex-direction: row;
+}
+
+#flex-box {
+    flex-direction: row;
+}
