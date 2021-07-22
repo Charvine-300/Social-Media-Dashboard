@@ -43,7 +43,6 @@
 }
 
 #usernames {
-    float: right;
     display: inline;
     margin-top: 2px;
     text-align: center;
@@ -52,7 +51,7 @@
 }
 
 #head-words {
-    padding-top: 40px;
+    padding-top: 30px;
     font-size: 70px;
     font-weight: 800;
     text-align: center;
